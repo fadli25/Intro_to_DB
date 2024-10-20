@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS Customers (
     address TEXT NOT NULL
 );
 
--- Create the orders table
+-- Create the orders table--
 CREATE TABLE IF NOT EXISTS Orders (
     order_id INT PRIMARY KEY AUTO_INCREMENT,
     customer_id INT,
